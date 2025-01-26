@@ -1,0 +1,8 @@
+while wait() do
+local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+end
